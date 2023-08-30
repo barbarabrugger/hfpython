@@ -1,0 +1,14 @@
+{
+    "builds": [
+        {
+            "src": "api/vsearch4web.py",
+            "use": "@vercel/python"
+        }
+    ],
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "api/vsearch4web.py"
+        }
+    ]
+}
