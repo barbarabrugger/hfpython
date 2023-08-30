@@ -13,4 +13,4 @@ def search4letters(phrase: str, letters: str) -> set:
     return set(letters).intersection(set(phrase))
 
 print(search4letters("alle Menschen werden Brüder", "abcdefghijklmnopqrstuvwxyz"))
-print(search4vowels("alle Menschen werden Brüder"))666df255994ae1a06fb87de14616cb9019a49317
+print(search4vowels("alle Menschen werden Brüder"))
